@@ -1,0 +1,157 @@
+/* EXTERNAL CSS */
+
+body{
+    background-image: url(../img/bg2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid green;
+    padding: 20px;
+    /* font-family: arial; */
+}
+
+/* HEAD */
+.header {
+    text-align: center;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+
+    background: linear-gradient(45deg, #00ffff, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header img{
+    display: flex;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 50%;  
+    filter: grayscale(100%);
+}
+
+.header img:hover{
+    filter: grayscale(0%);
+}
+
+.header h2 a{
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.header h2 a:hover{   
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 8px;
+    background: linear-gradient(90deg, black, darkviolet);
+
+    
+}
+
+/* SELF INTRODUCTION */
+.self-introduction h3{
+    color: white;
+    padding: 4.5px;
+    font-style: italic;
+    font-size: 20px;
+    background-color: green;
+}
+
+.self-introduction p{
+    color: white;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+
+
+/* EDUCATIONAL BACKGROUND */
+.educational-background h4 {
+    font-style: italic;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+.educational-background table{
+    margin-top: -10px;
+	border-collapse: collapse;
+	width: 100%;
+    border-color: grey;
+    font-family: Arial;
+}
+
+.educational-background table thead th{
+	background-color: green;
+	color: white;	
+    padding: 8px;
+
+}
+
+.educational-background table tbody td{
+	background-color: transparent;
+	color: white;	
+    padding: 8px;
+
+}
+
+
+
+/* EXPERTISE */
+.expertise h3 {
+    padding: 4.5px;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+}
+
+.expertise ul {
+    color: white;
+}
+
+
+/* BACKGROUND ON INFORMATION TECHNOLOGY */
+.background h4{
+    padding: 4.5px;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+}
+
+.background p {
+    color: white;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+
+
+/* APPLICATIONS USED IN STUDYING */
+.applications h4 {
+    padding: 4.5px;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+}
+
+.applications ol {
+    color: white;
+}
+
+
+h3, h4, ul, ol{
+    text-align: left;
+    font-family: Arial;
+}
+
+
